@@ -180,3 +180,84 @@ h1:hover{
     height: 50px;
     width: 50px;
 }
+#errorbox{
+    display: block;
+    border-radius: 15px;
+    background-color: #2c2f33;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    text-align: center;
+}
+#errorbox p {
+    padding-top: 25px;
+}
+
+.main{
+    display: block;
+    background-color: #2c2f33;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.main h1{
+    padding-bottom: 20px;
+}
+.dropdown{
+    position: relative;
+  display: inline-block;
+}
+button{
+    font-weight: bold;
+}
+.dropdown-button {
+    background-color: #2c2f33;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2c2f33;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content img{
+    padding-top: 10px;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 15px;
+}
+.dropdown-content a:hover {
+      background-color: #7289da;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    border-radius: 15px;
+}
+
+.dropdown:hover .dropdown-button {
+    background-color: #7289da;
+    border-radius: 15px;
+}
