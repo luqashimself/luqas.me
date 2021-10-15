@@ -256,8 +256,24 @@ button{
     display: block;
     border-radius: 15px;
 }
-
 .dropdown:hover .dropdown-button {
     background-color: #7289da;
     border-radius: 15px;
+}
+#netflixbox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    display: block;
+    background-color: #831010;
+    border-radius: 15px;
+    padding: 10px;
+    height: 600px; 
+    width: 300px;
+    text-align: center;
+}
+#netflixbox p {
+    padding: 10px;
 }
