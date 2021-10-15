@@ -277,3 +277,19 @@ button{
 #netflixbox p {
     padding: 10px;
 }
+#netflixbox img{
+    width: 25px;
+    height: 25px;
+    padding: 1px;
+    position: absolute;
+    top: 8.5%;
+    left: 35%;
+    transform: translate( -50%, -50%)
+
+}
+#netflixbox ul{
+    padding-top: 25px;
+}
+#netflixbox a {
+    color: #fff;
+}
