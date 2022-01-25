@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">    
+	<title>Kontakt</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img id="background" src="img/aurora-gb8563299e_1920_klein.jpg">
+            <ul>
+                <li><a href="index.html">Startseite</a></li>
+                <li><a href="galerie.html">Galerie</a></li>
+                <li><a href="aboutus.html">Über uns</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="contact">
+        <h1 id="contact-h1">Kontaktformular</h1>
+            </br>
+            <form action="" method="get" name="kontakt" id="kontakt"> 
+                
+               <div class="anrede">
+                    <label for="herr">Herr</label>
+                    <input name="anrede" type="radio" id="anrede" value="herr">
+                    &nbsp;
+                    <label for="frau">Frau</label>
+                    <input name="anrede" type="radio" id="anrede" value="frau">
+               </div>
+            </br>
+                    <label for="vorname">Vorname:</label>
+                    <input type="text" id="contact-text" name="vorname" placeholder="Vorname">
+                
+         
+                
+                    <label for="vorname">Nachname:</label>
+                    <input type="text" id="contact-text" name="nachname" placeholder="Nachname">
+                
+          
+                
+                    <label for="mail">Email:</label>
+                    <input type="text" id="contact-text" name="mail" placeholder="E-Mail">
+            </br>   
+             
+                    <p>Ihre Nachricht</p>
+                    <textarea id="text" rows="10" cols="50"></textarea>
+
+                
+            </br>
+                <input type="button" id="absenden" name="absenden" value="Absenden">
+            </form>
+    </div>
+    <footer>
+        <p>&copy; schlieeen</p>
+    </footer>
+</body>
+</html>
