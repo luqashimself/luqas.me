@@ -7,9 +7,11 @@ body{
     font-family: 'Roboto', sans-serif;
     color: #000;
 }
+
 #background{
     width: 100%;
 }
+
 ul{
     list-style-type: none;
     text-decoration: none;
@@ -37,6 +39,10 @@ a{
     padding: 10px;
     top: 65%;
     position: fixed;
+    background-color: #fff;
+    display: block;
+    height: 100%;
+    width: 100%;
 }
 footer{
     text-align: center;
