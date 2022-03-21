@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="icon" href="img/icons8-racoon-48.png">
+    <link rel="icon" href="img/q.png">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +13,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <meta property="author" content="luqas">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://luqas.me/img/icons8-racoon-961.png">
     <meta property="og:title" content="luqas.me">
     <meta property="og:description" content="">
     <meta property="og:image" content="https://luqas.me/img/icons8-racoon-961.png">
@@ -29,13 +28,13 @@
                 <h1 class="name">
                     Welcome on <span> luqas.me</span>
                     <div class="icons">
-                        <a href="https://discord.gg/tEQmhRUxGT" class="icon">
-                            <i class="fab fa-discord"></i>
-                        </a>
-                        <a href="https://steamcommunity.com/id/luqashimself/" class="icon">
+                        <a href="https://steamcommunity.com/id/luqashimself/" target="_blank" class="icon">
                             <i class="fab fa-steam"></i>
+                        </a> 
+                        <a href="https://www.twitch.tv/luqashimself" target="_blank" class="icon">
+                            <i class="fab fa-twitch"></i>
                         </a>      
-                        <a href="https://github.com/luqashimself" class="icon">
+                        <a href="https://github.com/luqashimself" target="_blank" class="icon">
                             <i class="fab fa-github"></i>
                         </a>
                     </div>
@@ -43,9 +42,51 @@
             </div>
         </div>
     </header>
-    <div class="theme-btn">
-        <i class="fas fa-adjust"></i>
-    </div>
+    <section class="section sec3" id="portfolio">
+        <div class="main-title">
+            <h2>My <span>Projects</span></h2>
+        </div>
+        <div class="portfolios">
+            <div class="portfolio-item">
+                <div class="image">
+                    <img src="img/teletext.png" alt="">
+                </div>
+                <div class="hover-items">
+                    <h3>Teletext</h3>
+                    <p>German Community Server</p>
+                </br>
+                    <div class="icons">
+                        <a href="https://discord.gg/tEQmhRUxGT" target="_blank" class="icon">
+                            <i class="fab fa-discord"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="image">
+                    <img src="img/birb.jpg" alt="">
+                </div>
+                <div class="hover-items">
+                    <h3>Animels</h3>
+                    <p>all kind of animal images & videos</p>
+                </br>
+                    <div class="icons">
+                        <a href="https://discord.gg/rykaUZ8j8Z" target="_blank" class="icon">
+                            <i class="fab fa-discord"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div class="controlls">
+        <div class="control  control-1 active-btn" data-id="home" >
+            <i class="fas fa-home"></i>
+        </div>
+        <div class="control control-3" data-id="portfolio">
+            <i class="fas fa-file-powerpoint"></i>
+        </div>
     <script src="app.js"></script>
 </body>
 </html>
