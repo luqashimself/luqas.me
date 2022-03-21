@@ -28,7 +28,7 @@
                 <h1 class="name">
                     Error <span>404</span> Not Found
                     <div class="icons">
-                        <a href="https://luqas.me" class="control  control-1 active-btn">
+                        <a href="https://luqas.me">
                             <span><i class="fas fa-home"></i></span>
                         </a> 
                     </div>
