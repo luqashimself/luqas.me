@@ -1,11 +1,10 @@
 <?php
 $secret_key = "jackson";
-$sharexdir = "";
+$sharexdir = "screenshot/";
 $domain_url = "https://luqas.me/";
 $lengthofstring = 5;
 
 function RandomString($length) {
-    .
     $keys = array_merge(range(0,9), range('a', 'z'));
 
     $key = '';
