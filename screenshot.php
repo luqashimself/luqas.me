@@ -1,5 +1,5 @@
 <?php
-$secret_key = "jackson";
+$secret_key = "###";
 $sharexdir = "screenshot/";
 $domain_url = "https://luqas.me/";
 $lengthofstring = 5;
