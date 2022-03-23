@@ -1,6 +1,6 @@
 <?php
-$secret_key = "###";
-$sharexdir = "screenshot/";
+$secret_key = "ariana";
+$sharexdir = "upload/";
 $domain_url = "https://luqas.me/";
 $lengthofstring = 5;
 
